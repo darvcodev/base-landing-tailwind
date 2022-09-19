@@ -29,7 +29,7 @@ export const FooterPage = () => {
         <div className="rounded-lg bg-slate-200">
           <h1 className="font-bold text-center">Información de contacto</h1>
           <p>
-            Landing page desarrollada en React.{" "}
+            📱.{" "}+57 3165365663 <br />
             <span>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure ab
               blanditiis odit, tenetur labore doloribus iusto deleniti sapiente

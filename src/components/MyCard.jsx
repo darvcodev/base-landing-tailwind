@@ -13,14 +13,14 @@ export const MyCard = ({
       <a
         href={url_preview}
         target="_blank"
-        className="bg-blue-500 mr-2 text-white px-6 py-2 rounded-full"
+        className="bg-blue-500 hover:bg-blue-900 mr-2 text-white px-6 py-2 rounded-full"
       >
         Vista Previa
       </a>
       <a
         href={url_github}
         target="_blank"
-        className="bg-blue-500 text-white px-6 py-2 rounded-full"
+        className="bg-blue-500 hover:bg-blue-900 text-white px-6 py-2 rounded-full"
       >
         GitHub
       </a>
