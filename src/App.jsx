@@ -5,6 +5,7 @@ import { EstudiosPage } from "./pages/EstudiosPage";
 import { ExperienciaPage } from "./pages/ExperienciaPage";
 import { PortafolioPage } from "./pages/PortafolioPage";
 import { ContactoPage } from "./pages/ContactoPage";
+import { FooterPage } from "./pages/FooterPage";
 import { useState } from "react";
 
 function App() {
@@ -16,20 +17,23 @@ function App() {
       <section className="flex bg-orange-500" id="inicio">
         <InicioPage />
       </section>
-      <section className="bg-white" id="perfil">
+      <section className="bg-white h-auto" id="perfil">
         <PerfilPage />
       </section>
-      <section className="bg-orange-500" id="estudios">
+      <section className="bg-orange-500 h-auto" id="estudios">
         <EstudiosPage />
       </section>
-      <section className="bg-white" id="experiencia">
+      <section className="bg-white h-auto" id="experiencia">
         <ExperienciaPage />
       </section>
-      <section className="bg-orange-500" id="portafolio">
+      <section className="bg-orange-500 h-auto" id="portafolio">
         <PortafolioPage />
       </section>
-      <section className="bg-white" id="contacto">
+      <section className="bg-white h-auto" id="contacto">
         <ContactoPage forms={forms} setForms={setForms} />
+      </section>
+      <section className="bg-orange-500 h-auto" id="footer">
+        <FooterPage />
       </section>
     </>
   );

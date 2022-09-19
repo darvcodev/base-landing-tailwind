@@ -11,8 +11,8 @@ export const PerfilPage = () => {
       <h1 className="font-bold text-center text-4xl text-blue-600 py-4 uppercase">
         Perfil
       </h1>
-      <div className="grid grid-cols-2 mx-2">
-        <div className="grid grid-cols-2 w-96 h-96 ml-10 text-center font-bold text-2xl text-orange-500 ">
+      <div className="grid grid-cols-1 lg:grid-cols-2 mx-2">
+        <div className="grid grid-cols-2 ml-10 text-center font-bold text-2xl text-orange-500 ">
           <div className="mr-10 mt-4">
             <h3>Angular</h3>
             <img className="" src={angular} alt="Angular" />

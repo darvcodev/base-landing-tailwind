@@ -13,22 +13,26 @@ export const ContactoPage = ({ forms, setForms }) => {
       setError(true);
       alert("Hay campos sin llenar😡😡😡");
       return;
+    }else{
+      setError(false);
+  
+      const obtenerDataForm = {
+        nombre,
+        apellido,
+        email,
+        mensaje,
+      };
+  
+      alert('Mensaje exitoso');
+
+      setForms([...forms, obtenerDataForm]);
+      console.log({ forms });
+      setApellido("");
+      setEmail("");
+      setMensaje("");
+      setNombre("");
+
     }
-    setError(false);
-
-    const obtenerDataForm = {
-      nombre,
-      apellido,
-      email,
-      mensaje,
-    };
-
-    setForms([...forms, obtenerDataForm]);
-    console.log({ forms });
-    setApellido("");
-    setEmail("");
-    setMensaje("");
-    setNombre("");
   };
 
   return (
@@ -49,16 +53,13 @@ export const ContactoPage = ({ forms, setForms }) => {
               Nombre
             </label>
             <input
-              className="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+              className="appearance-none block w-full bg-gray-200 text-gray-700  rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
               id="grid-first-name"
               type="text"
               placeholder="David"
               value={nombre}
               onChange={(event) => setNombre(event.target.value)}
             />
-            {/* <p className="text-red-500 text-xs italic">
-              Please fill out this field.
-            </p> */}
           </div>
           <div className="w-full md:w-1/2 px-3">
             <label
@@ -94,9 +95,6 @@ export const ContactoPage = ({ forms, setForms }) => {
               value={email}
               onChange={(event) => setEmail(event.target.value)}
             />
-            <p className="text-gray-600 text-xs italic">
-              Make it as long and as crazy as you'd like
-            </p>
           </div>
         </div>
         <div className="flex flex-wrap -mx-3 mb-6">
@@ -115,9 +113,6 @@ export const ContactoPage = ({ forms, setForms }) => {
               value={mensaje}
               onChange={(event) => setMensaje(event.target.value)}
             />
-            <p className="text-gray-600 text-xs italic">
-              Make it as long and as crazy as you'd like
-            </p>
           </div>
         </div>
 

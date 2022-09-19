@@ -6,20 +6,20 @@ export const InicioPage = () => {
   return (
     <>
       {/* <div className="flex mx-20"> */}
-      <div className="grid grid-cols-2 mx-10">
-        <div>
+      <div className="grid grid-cols-1 h-auto lg:grid-cols-2">
+        <div className="pt-14 lg:mx-auto">
           <h1 className="font-bold text-7xl">
             Hola 👋🏾, <br /> soy Wisthong 😎
           </h1>
-          <p className="mt-4 text-2xl">
+          <p className="mt-2 lg:mt-4 text-2xl">
             Trabajemos juntos y realicemos app <br /> moviles 📱 y sitos web
             responsives 💻
           </p>
-          <div className="mt-8 text-3xl text-white">
+          <div className="mt-4 lg:mt-8 text-3xl text-white">
             <a
               href="https://github.com/Wisthong"
               target="_blank"
-              className="bg-black mx-20  px-6 py-2 rounded-full"
+              className="bg-black mx-8 lg:mx-20  px-6 py-2 rounded-full"
             >
               Perfil
             </a>
@@ -33,7 +33,7 @@ export const InicioPage = () => {
           </div>
         </div>
         <div>
-          <img className="rounded-full w-72 mx-48" src={miniatura} alt="" />
+          <img className="rounded-full w-36 mx-auto mt-10  lg:mx-48" src={miniatura} alt="" />
           {/* <p>
             <span className="font-bold text-6xl">Aqui va la foto</span>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab

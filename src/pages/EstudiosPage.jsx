@@ -6,7 +6,7 @@ export const EstudiosPage = () => {
       <h1 className="font-bold text-center text-4xl py-4 text-white uppercase">
         Estudios
       </h1>
-      <div className="grid grid-cols-2 gap-2 mx-5">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 mx-5 py-10">
         <div className="bg-slate-50 rounded-3xl p-2 my-2">
           <h1 className="text-center text-2xl font-bold">
             Ingenieria de Sistemas
