@@ -8,7 +8,7 @@ export const InicioPage = () => {
       {/* <div className="flex mx-20"> */}
       <div className="grid grid-cols-1 h-auto lg:grid-cols-2">
         <div className="pt-14 lg:mx-auto">
-          <h1 className="font-bold text-7xl">
+          <h1 className="font-bold text-7xl animate__animated animate__bounce animate__slower">
             Hola 👋🏾, <br /> soy Wisthong 😎
           </h1>
           <p className="mt-2 lg:mt-4 text-2xl">
