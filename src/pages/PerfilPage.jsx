@@ -34,8 +34,8 @@ export const PerfilPage = () => {
             <img className="" src={nodejs} alt="Node js" />
           </div>
           <div className="ml-10 mt-4">
-            <h3>Mongo db</h3>
-            <img  src={mongodb} alt="Mongo db" />
+            <h3>Mongo DB</h3>
+            <img  src={mongodb} alt="Mongo DB" />
           </div>
         </div>
 

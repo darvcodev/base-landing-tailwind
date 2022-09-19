@@ -3,7 +3,7 @@ import { proyectos } from "../database/proyectos";
 export const PortafolioPage = () => {
   return (
     <div>
-      <h1 className="font-bold text-4xl text-white py-4 text-center">Portafolio</h1>
+      <h1 className="font-bold text-4xl text-white py-4 uppercase text-center">Portafolio</h1>
       <div className="grid grid-cols-1 lg:grid-cols-3">
         {proyectos.map((proyecto) => (
           <MyCard

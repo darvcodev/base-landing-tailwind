@@ -37,7 +37,7 @@ export const ContactoPage = ({ forms, setForms }) => {
 
   return (
     <div className="grid justify-center">
-      <h1 className="font-black text-4xl text-blue-600 text-center py-4">
+      <h1 className="font-black text-4xl uppercase text-blue-600 text-center py-4">
         Contacto
       </h1>
       <form

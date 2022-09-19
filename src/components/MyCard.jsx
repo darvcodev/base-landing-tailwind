@@ -6,7 +6,7 @@ export const MyCard = ({
   url_github,
 }) => {
   return (
-    <div className="m-6 bg-white px-20 py-16 rounded-2xl shadow-2xl">
+    <div className="m-6 bg-white px-10 lg:px-20 py-16 rounded-2xl shadow-2xl">
       <img src={url} className="rounded-2xl mx-auto mb-4 shadow-2xl" />
       <h1 className="font-bold text-2xl mb-4">{titulo}</h1>
       <h1 className="mb-6">{descripcion}</h1>
