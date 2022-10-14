@@ -3,8 +3,10 @@ import { proyectos } from "../database/proyectos";
 export const PortafolioPage = () => {
   return (
     <div>
-      <h1 className="font-bold text-4xl text-white py-4 uppercase text-center">Portafolio</h1>
-      <div className="grid grid-cols-1 lg:grid-cols-3">
+      <p class="text-center text-5xl font-bold py-4 text-white">
+        Portafolio
+      </p>
+      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3">
         {proyectos.map((proyecto) => (
           <MyCard
             key={proyecto.id}

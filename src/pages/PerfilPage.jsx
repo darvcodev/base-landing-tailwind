@@ -8,52 +8,66 @@ import react from "../assets/logos/react.svg";
 export const PerfilPage = () => {
   return (
     <div>
-      <h1 className="font-bold text-center text-4xl text-blue-600 py-4 uppercase">
-        Perfil
-      </h1>
-      <div className="grid grid-cols-1 lg:grid-cols-2 mx-2">
-        <div className="grid grid-cols-2 ml-10 text-center font-bold text-2xl text-orange-500 ">
-          <div className="mr-10 mt-4">
-            <h3>Angular</h3>
-            <img className="" src={angular} alt="Angular" />
-          </div>
-          <div className="ml-10 mt-4">
-            <h3>React</h3>
-            <img  src={react} alt="React" />
-          </div>
-          <div className="mr-10 mt-4">
-            <h3>Ionic</h3>
-            <img className="" src={ionic} alt="Ionic" />
-          </div>
-          <div className="ml-10 mt-4">
-            <h3>Html</h3>
-            <img  src={html} alt="Html" />
-          </div>
-          <div className="mr-10 mt-4">
-            <h3>Node js</h3>
-            <img className="" src={nodejs} alt="Node js" />
-          </div>
-          <div className="ml-10 mt-4">
-            <h3>Mongo DB</h3>
-            <img  src={mongodb} alt="Mongo DB" />
+      <p className="text-center text-5xl font-bold py-4 text-sky-700">Perfil</p>
+      <div className="grid grid-cols-1 p-4 md:grid-cols-3 md:pt-14 lg:grid-cols-3 lg:pt-14">
+        <div>
+          <p className="text-center font-bold text-4xl text-sky-700">
+            Desarrollador FrontEnd y Backend
+          </p>
+          <p className="text-base py-2 justify-start">
+            Soy estudiante de Ingenieria de Sistemas de la Universidad del
+            Pacifico de Colombia, me encuentro cursando el semestre X, me
+            apasiona mucho la programacion, y las tecnologias que manejo son:
+          </p>
+          <div className="md:py-2">
+            <li className="list-none">Angular</li>
+            <li className="list-none">React</li>
+            <li className="list-none">Ionic</li>
+            <li className="list-none">Html</li>
+            <li className="list-none">Node</li>
+            <li className="list-none">MongoDB</li>
+
           </div>
         </div>
-
-        <div className="">
-          <h2 className="text-center text-2xl text-orange-500 font-bold">
-            Desarrollador FrontEnd y Backend{" "}
-          </h2>
-          <p className="mt-5">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
-          </p>
+        <div className="md:col-span-2 lg:col-span-2 grid md:justify-items-center lg:justify-items-center">
+          <div className="grid lg:grid-cols-2 md:grid-cols-2 md:pl-20">
+            <img
+              className="w-2/12 md:w-2/5 lg:w-2/4"
+              src={angular}
+              alt=""
+              srcset=""
+            />
+            <img
+              className="w-2/12 md:w-2/5 lg:w-2/4"
+              src={react}
+              alt=""
+              srcset=""
+            />
+            <img
+              className="w-2/12 md:w-2/5 lg:w-2/4"
+              src={ionic}
+              alt=""
+              srcset=""
+            />
+            <img
+              className="w-2/12 md:w-2/5 lg:w-2/4"
+              src={nodejs}
+              alt=""
+              srcset=""
+            />
+            <img
+              className="w-2/12 md:w-2/5 lg:w-2/4"
+              src={html}
+              alt=""
+              srcset=""
+            />
+            <img
+              className="w-2/12 md:w-2/5 lg:w-2/4"
+              src={mongodb}
+              alt=""
+              srcset=""
+            />
+          </div>
         </div>
       </div>
     </div>

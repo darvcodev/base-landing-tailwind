@@ -39,9 +39,9 @@ export const ContactoPage = ({ forms, setForms }) => {
   return (
     <>
       <div className="grid justify-center">
-        <h1 className="font-black text-4xl uppercase text-blue-600 text-center py-4">
+        <p class="text-center text-5xl font-bold py-4 text-sky-700">
           Contacto
-        </h1>
+        </p>{" "}
         <form
           className="w-full max-w-l bg-slate-100 shadow-md rounded-lg py-5 px-5 mb-10"
           onSubmit={handleSubmit}
